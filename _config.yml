@@ -1,0 +1,44 @@
+# _config.yml for Clearsale Privacy Policy GitHub Pages
+
+# Site settings
+title: Clearsale Privacy Policy
+description: Privacy Policy for the Clearsale iOS App
+url: "" # Will be filled by GitHub Pages
+baseurl: "" # Will be filled by GitHub Pages
+
+# Build settings
+markdown: kramdown
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Theme customization
+show_downloads: false
+
+# Theme colors and styles
+theme_color: "#159957"
+
+# Additional settings
+google_analytics: # Leave empty for now
+timezone: America/Los_Angeles
+encoding: UTF-8
+
+# Author information
+author:
+  name: Clearsale
+  email: # Add your email here
+
+# Social media
+social:
+  github: # Your GitHub username if you want to link
+  twitter: # Your Twitter handle if you want to link
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md
